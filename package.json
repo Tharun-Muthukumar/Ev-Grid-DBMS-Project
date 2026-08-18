@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "server": "node server_dbms.js",
+    "start": "node server_dbms.js",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "check": "node --check server_dbms.js && npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}
